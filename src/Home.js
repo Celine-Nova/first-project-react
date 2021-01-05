@@ -1,6 +1,7 @@
 import'./Login';
 
 function Hello(){
+    // <Route  exact path="/Home"/> 
     return(
         <div className="Home">
             <h1>Hello 2 iTech</h1>
@@ -8,8 +9,8 @@ function Hello(){
            
                 className="Login-link"
                 href="./Login"
-                target="_blank"
-                rel="noopener noreferrer"
+                // target="_blank"
+              
             >
                 Connectez-vous!
             </a>

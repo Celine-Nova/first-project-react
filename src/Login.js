@@ -1,17 +1,16 @@
 // import React from 'react';
-import { BrowserRouter as Router, Redirect, Route, Switch } from
-'react-router-dom';
-import { useHistory } from "react-router-dom";
+
+import { Route, useHistory } from "react-router-dom";
 function Login() {
     const history = useHistory();
 
-    const routeChange = () =>{ 
-      let path = "/Home"; 
-      history.push(path);
-    }
+    const routeChange = () => {
+        history.push("/");
+      }
     return (
         <div className="Login">
-            <form onSubmit={postDataForm}>
+            {/* Dans return  mettre les callback en fonctions flechées sinon boucle infinie */}
+            <form onSubmit={() => postDataForm()}>
                 <label>
                     Nom :
                     <input type="text" name="name" id="name" />

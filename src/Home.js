@@ -7,19 +7,31 @@ function Hello(){
             <h1>Hello 2 iTech</h1>
             <a
                 className="Login-link"
-                href="./Login"
+                href="./login"
                 // target="_blank" 
             >
                 Connectez-vous!
             </a>
-            <h2>Bienvenue   </h2>
+            <h2>Bienvenue</h2>
             <a
                 className="Timer-link"
-                href="./Timer"
+                href="./timer"
            // target="_blank"
             >
-         Timer
-       </a>
+                Timer
+            </a>    <br/>
+            <a
+                className="chrono-link"
+                href="./oclock"
+            >
+                Oclock 
+            </a> <br/> 
+            <a
+                className="eleve-link"
+                href="./eleves"
+            >
+                Eleves
+            </a>
         </div>
         
     );

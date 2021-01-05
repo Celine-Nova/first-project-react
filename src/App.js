@@ -4,6 +4,7 @@ import { BrowserRouter, BrowserRouter as Router, Redirect, Route, Switch } from
 'react-router-dom';
 import Hello from './Home';
 import Login from './Login';
+import Timer from './Timer';
 function App() {
  
  
@@ -17,6 +18,9 @@ function App() {
       </Route>
       <Route path="/login">
         <Login />
+      </Route>
+      <Route path="/timer">
+        <Timer />
       </Route>
    </BrowserRouter>
  
